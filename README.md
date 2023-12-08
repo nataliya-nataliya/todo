@@ -14,6 +14,7 @@ This is a simple Todo List application built with the following frameworks:
 - [Database Setup](#database-setup)
 - [Build and Run](#build-and-run)
 - [Usage](#usage)
+- [Feedback](#feedback)
 
 ## Prerequisites
 
@@ -102,3 +103,13 @@ curl -X GET -H "Authorization: Bearer your_token" http://localhost:8080/api/task
 Replace your_token with the token obtained from the login request.
 
 Make sure to replace placeholders like your_username, your_password, your_token, and {id} with your actual values.
+
+## Feedback
+1) The task was not very difficult to perform, thanks to the help in writing tests and explaining, dealing with errors that occur when running tests or the program
+2) I spent 16 hours
+3) Some tests failed after generation. After generating and adding the `checkstyle.xml`, the build would not build.
+4) The generated code for Spring Security did not fit Spring Boot 3.0.7 . For example, the proposed class "WebSecurityConfigurerAdapter" was labeled as deprecated. I took information about the new version from other sources.
+5) Examples: 
+"Can you add quality checks (coverage, complexity, check style) to the project?"
+"Can you write a README file with a table of contents and instructions for starting this project? The project has an application.properties file with the contents: "
+
